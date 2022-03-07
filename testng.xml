@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="TestFramework.udemyFrame.Listeners"/>
+</listeners>
+  <test name="Validating Text">
+    <classes>
+      <class name="TestFramework.udemyFrame.textFieldValidate"/>
+     </classes>
+     </test>
+     <test name="Validating header">
+    <classes>
+      <class name="TestFramework.udemyFrame.headerValidate"/>
+      </classes>
+     </test>
+     <test name="Base Page">
+     <classes>
+      <class name="TestFramework.udemyFrame.basepageNavigation"/>
+    </classes>
+  </test> 
+  <test name="Broken Links">
+    <classes>
+      <class name="TestFramework.udemyFrame.brokenLinks"/>
+      </classes>
+     </test>
+  <!-- Test -->
+</suite> <!-- Suite -->

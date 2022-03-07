@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-01T22:54:07 IST" name="Suite" finished-at="2022-03-01T22:54:58 IST" duration-ms="50573">
+    <groups>
+    </groups>
+    <test started-at="2022-03-01T22:54:07 IST" name="Validating Text" finished-at="2022-03-01T22:54:12 IST" duration-ms="5365">
+      <class name="TestFramework.udemyFrame.textFieldValidate">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.udemyFrame.textFieldValidate@5be49b60]" started-at="2022-03-01T22:54:07 IST" name="initialize" finished-at="2022-03-01T22:54:12 IST" duration-ms="4903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="homepage()[pri:0, instance:TestFramework.udemyFrame.textFieldValidate@5be49b60]" started-at="2022-03-01T22:54:12 IST" name="homepage" finished-at="2022-03-01T22:54:12 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="homepage1()[pri:0, instance:TestFramework.udemyFrame.textFieldValidate@5be49b60]" started-at="2022-03-01T22:54:12 IST" name="homepage1" finished-at="2022-03-01T22:54:12 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage1 -->
+        <test-method signature="subscribe()[pri:0, instance:TestFramework.udemyFrame.textFieldValidate@5be49b60]" started-at="2022-03-01T22:54:12 IST" name="subscribe" finished-at="2022-03-01T22:54:12 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFramework.udemyFrame.textFieldValidate@5be49b60]" started-at="2022-03-01T22:54:12 IST" name="tearDown" finished-at="2022-03-01T22:54:12 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestFramework.udemyFrame.textFieldValidate -->
+    </test> <!-- Validating Text -->
+    <test started-at="2022-03-01T22:54:13 IST" name="Validating header" finished-at="2022-03-01T22:54:19 IST" duration-ms="6393">
+      <class name="TestFramework.udemyFrame.headerValidate">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.udemyFrame.headerValidate@5082d622]" started-at="2022-03-01T22:54:13 IST" name="initialize" finished-at="2022-03-01T22:54:15 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="homepage()[pri:0, instance:TestFramework.udemyFrame.headerValidate@5082d622]" started-at="2022-03-01T22:54:15 IST" name="homepage" finished-at="2022-03-01T22:54:15 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="homepage1()[pri:0, instance:TestFramework.udemyFrame.headerValidate@5082d622]" started-at="2022-03-01T22:54:15 IST" name="homepage1" finished-at="2022-03-01T22:54:15 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFramework.udemyFrame.headerValidate@5082d622]" started-at="2022-03-01T22:54:15 IST" name="tearDown" finished-at="2022-03-01T22:54:19 IST" duration-ms="4207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestFramework.udemyFrame.headerValidate -->
+    </test> <!-- Validating header -->
+    <test started-at="2022-03-01T22:54:19 IST" name="Base Page" finished-at="2022-03-01T22:54:37 IST" duration-ms="17096">
+      <class name="TestFramework.udemyFrame.basepageNavigation">
+        <test-method signature="homepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestFramework.udemyFrame.basepageNavigation@409c54f]" started-at="2022-03-01T22:54:19 IST" name="homepage" data-provider="getData" finished-at="2022-03-01T22:54:28 IST" duration-ms="8090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Registered User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="homepage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestFramework.udemyFrame.basepageNavigation@409c54f]" started-at="2022-03-01T22:54:28 IST" name="homepage" data-provider="getData" finished-at="2022-03-01T22:54:36 IST" duration-ms="8876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DOnt have an account register]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFramework.udemyFrame.basepageNavigation@409c54f]" started-at="2022-03-01T22:54:36 IST" name="tearDown" finished-at="2022-03-01T22:54:37 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestFramework.udemyFrame.basepageNavigation -->
+    </test> <!-- Base Page -->
+    <test started-at="2022-03-01T22:54:37 IST" name="Broken Links" finished-at="2022-03-01T22:54:58 IST" duration-ms="21121">
+      <class name="TestFramework.udemyFrame.brokenLinks">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.udemyFrame.brokenLinks@7aaca91a]" started-at="2022-03-01T22:54:37 IST" name="initialize" finished-at="2022-03-01T22:54:39 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="checkBrokenLinks()[pri:0, instance:TestFramework.udemyFrame.brokenLinks@7aaca91a]" started-at="2022-03-01T22:54:39 IST" name="checkBrokenLinks" finished-at="2022-03-01T22:54:54 IST" duration-ms="14886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFramework.udemyFrame.brokenLinks@7aaca91a]" started-at="2022-03-01T22:54:54 IST" name="tearDown" finished-at="2022-03-01T22:54:58 IST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestFramework.udemyFrame.brokenLinks -->
+    </test> <!-- Broken Links -->
+  </suite> <!-- Suite -->
+</testng-results>
